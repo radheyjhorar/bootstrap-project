@@ -43,3 +43,137 @@ p {
   text-rendering: optimizeLegibility;
   
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button, a {
+  font-size: 1.15rem !important;
+  letter-spacing: 0.03rem;
+  word-spacing: .1rem;
+}
+
+.common-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+
+.common-title {
+  margin-bottom: 4.2rem;
+}
+
+
+
+
+
+
+/* navbar style */
+.nav-link {
+  color: var(--bs-main-color);
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--bs-secondary-color) !important;
+}
+
+
+/* hero section start */
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+
+.bg-main {
+  height: 80vh;
+  position: relative;
+}
+
+.bg-color {
+  background-color: var(--bs-dark-color);
+}
+
+.text-light-grey {
+  color: var(--bs-primary-color);
+}
+
+/* .bg-theme {
+  color: var(--bs-supporting-color);
+  background-image: none !important;
+} */
+
+.hero-video--section {
+  height: auto;
+  width: 30rem;
+  border-radius: 2rem;
+}
+
+.custom-shape-divider-bottom-1712486047 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1712486047 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-bottom-1712486047 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+/* Services section */
+.services-section {
+  padding: 6rem 0 3rem 0 !important;
+}
+
+.icon-span {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--bs-secondary-color);
+  color: var(--bs-main-color);
+}
+
+.card-box:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+
+
+/* more-info-section style  */
+
+.more-info-section {
+  background-image: linear-gradient(rgba(22,22,22,0.9), rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden; 
+}
+
+.more-info-section .img-section {
+  position: relative;
+}
+
+.more-info-section .img-section img {
+  /* position: absolute;
+  left: 0; */
+  width: 70%;
+
+}
